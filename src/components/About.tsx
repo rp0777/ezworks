@@ -6,10 +6,10 @@ const About = () => {
       <img className=" w-[30vww]" src={Logo} alt="Full Logo EZ Works" />
 
       <header>
-        <h2 className=" text-2xl">Suite Of Business Support Services</h2>
+        <h2 className=" text-2xl pt-5">Suite Of Business Support Services</h2>
       </header>
 
-      <p className=" text-lg">
+      <p className=" text-lg pt-10">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt...Lorem ipsum dolor sit amet, consectetur adipiscing
         elit, sed

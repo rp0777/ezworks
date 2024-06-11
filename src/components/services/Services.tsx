@@ -3,13 +3,11 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="services w-full grid grid-cols-3 gap-4">
+    <section className="services w-full flex flex-col justify-center items-center lg:grid lg:grid-cols-3 gap-4">
       {servicesData.map((service) => (
-        <div key={service.id}>
-          <ServiceCard service={service} />
-        </div>
+        <ServiceCard key={service.id} service={service} />
       ))}
-    </div>
+    </section>
   );
 };
 
