@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios, { AxiosError } from "axios";
 import { useState } from "react";
 
 const ContactMe = () => {
@@ -18,7 +18,8 @@ const ContactMe = () => {
       });
 
       console.log("Response :- ", response.data);
-    } catch (error) {
+    } catch (e) {
+      const error = e as AxiosError;
       console.error("Error submitting form", error);
       setEmailError(`Error : ${error.message}`);
     }
