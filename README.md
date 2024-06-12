@@ -1,30 +1,74 @@
-# React + TypeScript + Vite
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="EZ Works" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+&#xa0;
 
-Currently, two official plugins are available:
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1 align="center">EZ Works</h1>
 
-## Expanding the ESLint configuration
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/rp0777/ezworks">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/rp0777/ezworks">
 
-- Configure the top-level `parserOptions` property like this:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rp0777/ezworks?color=56BEB8">
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+  <img alt="License" src="https://img.shields.io/github/license/rp0777/ezworks?color=56BEB8">
+
+  </p>
+
+<!-- Status -->
+
+<!-- <h4 align="center">
+	🚧  Rooftop 🚀 Under construction...  🚧
+</h4>
+
+<hr> -->
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+</p>
+
+<br>
+
+## :dart: About
+
+Web scraping of Food Grab website using XHR requests
+
+## :rocket: Technologies
+
+The following tools were used in this project:
+
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## :white_check_mark: Requirements
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [node js](https://nodejs.org/en) installed.
+
+## :checkered_flag: Starting
+
+```bash
+# Clone this project
+$ git clone https://github.com/rp0777/ezworks
+
+# Access
+$ cd ezworks
+
+# Install dependencies
+$ npm install
+
+# Run the project
+$ npm start
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+&#xa0;
+
+<a href="#top">Back to top</a>
